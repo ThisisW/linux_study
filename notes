@@ -1,0 +1,7 @@
+1、grep -v
+2、du -h -d0
+3、find . -name 'XXX' | xargs rm -rf
+4、wc -l
+5、awk
+5.1、awk '{print $NF}'
+5.2、awk '{ gsub(/\//,"",$NF);print $NF }'
